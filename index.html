@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="directiveLecture" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body ng-controller="mainCtrl">
+    
+    <h2>{{ name }} </h2>
+    
+    <my-new-dir first-name="name"></</my-new-dir>
+
+    <test-dir alert-name="whatsMyName(firstName, lastName)" last-name="Smith" first-name="name"></test-dir>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="./app.js"></script>
+<script src="./mainCtrl.js"></script>
+<script src="./testDir.js"></script>
+<script src="./myNewDir.js"></script>
+<script src="./mainService.js"></script>
+</body>
+
+</html>
